@@ -1,0 +1,24 @@
+name: 'SetCoords'
+version: '1.0.0'
+main: io.github.patosala.SetCoords
+
+commands:
+  setcoords:
+    description: Set's a new coordinate.
+    usage: /setcoords
+
+  listcoords:
+    description: Get a player's saved coordinates.
+    usage: /listcoords
+
+  removecoords:
+    description: Remove a specific coordinate from list.
+    usage: /removecoords
+
+  getcoords:
+    descripction: Get your current coordinates and print them on chat.
+    usage: /getcoords
+
+  pointcoords:
+    description: Make a compass point to a saved coordinate.
+    useage: /pointcoords
